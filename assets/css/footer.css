@@ -2,27 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 
-/* Reset css */
-*{
-    margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-html{
-    scroll-behavior: smooth;
-    background-color: #f8f8f8;
-}
-body{
-    overflow-x: hidden;
-}
-a{
-    text-decoration: none;
-    color: #fff;
-}
-ul{
-    list-style: none;
-}
-
 /* footer */
 footer{
     position: relative;
@@ -33,6 +12,7 @@ footer{
     right: 0;
     min-height: 140px;
     background-color: #fff;
+    box-shadow: 0 5px 8px 0 lightgrey, 0 6px 20px 0 #EEEEEE;
     z-index: 32;
 }
 .footer-section{
