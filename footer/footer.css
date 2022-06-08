@@ -1,0 +1,86 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+/* Reset css */
+*{
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    background-color: #f8f8f8;
+}
+body{
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+ul{
+    list-style: none;
+}
+
+/* footer */
+footer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    min-height: 140px;
+    background-color: #fff;
+    z-index: 32;
+}
+.footer-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: 70px;
+    gap: 20px;
+    align-items: center;
+    padding: 0 50px;
+}
+.footer-section h3{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    color: #E88D2F;
+}
+
+.footer-section div{
+    background: #E88D2F;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 11px;
+    transition: ease .3s all;
+}
+.footer-section div:hover {
+    color: #E88D2F;
+    background-color: #eaeaea;
+    box-shadow: -1px 1px 5px #cecece;
+}
+
+.footer-section:nth-last-child(1){
+    background: #E88D2F;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: space-between;
+}
+.footer-section:nth-last-child(1) strong{
+    text-transform: uppercase;
+    font-size: 15px;
+}
+@media only screen and (max-width: 430px){
+    .footer-section{
+        padding: 20px;
+        gap: 10px;
+    }
+}
