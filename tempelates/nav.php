@@ -2,11 +2,15 @@
     <nav>
         <ul class="nav-container">
             <li class="logo">
+<<<<<<< HEAD
 <<<<<<< HEAD:nav/nav.php
                 <a href="index.php"><div><img src="nav/LOGO.png" alt="Sandio Petcare"></div></a>
 =======
                 <a href=""><div><img src="assets/img/LOGO.png" alt="Sandio Petcare"></div></a>
 >>>>>>> 8ed9ff0 (rebuilding site Wed Jun  8 15:39:22 WIB 2022):tempelates/nav.php
+=======
+                <a href=""><div><img src="assets/img/LOGO.png" alt="Sandio Petcare"></div></a>
+>>>>>>> main
             </li>
             <li class="nav-formsearch">
                 <form action="filter.php" method="get">

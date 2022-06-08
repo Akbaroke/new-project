@@ -4,6 +4,7 @@
 <html lang="en">
 <head>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,6 +23,8 @@
     <link rel="stylesheet" href="footer/footer.css">
     <title>Sandiopetcare.com</title>
 =======
+=======
+>>>>>>> main
     <?php include 'tempelates/header_static.php'; ?>
     <title>Landing Page</title>
 >>>>>>> 8ed9ff0 (rebuilding site Wed Jun  8 15:39:22 WIB 2022)
