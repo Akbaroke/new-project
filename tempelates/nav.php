@@ -24,6 +24,16 @@
                     <i class="fa-solid fa-cart-shopping"></i>
                 </a>
             </li>
+            <li>
+                <div id=theme>
+                    <div onclick=setDarkMode(true) id=darkBtn>
+                        <a>🌚</a>
+                    </div>
+                    <div onclick=setDarkMode(false) id=lightBtn class=is-hidden>
+                        <a>🌝</a>
+                    </div>
+                </div>
+            </li>
             <li class="nav-hamburger">
                 <i class="fa-solid fa-bars"></i>
                 <i class="fa-solid fa-xmark"></i>

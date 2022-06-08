@@ -9,6 +9,7 @@
             &copy; 2022 copyright <strong>sandio petcare</strong>
         </div>
     </footer>
-    <script src="assets/js//nav.js"></script>
+    <script src="assets/js/nav.js"></script>
+    <script src="assets/js/dark_mode.js"></script>
     </body>
 </html>
