@@ -46,5 +46,4 @@
             <a>obat anjing</a>
         </ul>
     </div>
-    <script src="nav/nav.js"></script>
 </header>

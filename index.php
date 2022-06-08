@@ -36,5 +36,3 @@
         </div>
     </main>
     <?php include 'tempelates/footer.php'; ?>
-</body>
-</html>
