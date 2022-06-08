@@ -2,7 +2,7 @@
     <nav>
         <ul class="nav-container">
             <li class="logo">
-                <a href=""><div><img src="nav/LOGO.png" alt="Sandio Petcare"></div></a>
+                <a href=""><div><img src="assets/img/LOGO.png" alt="Sandio Petcare"></div></a>
             </li>
             <li class="nav-formsearch">
                 <form action="index.php" method="get">
