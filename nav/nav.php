@@ -2,10 +2,10 @@
     <nav>
         <ul class="nav-container">
             <li class="logo">
-                <a href=""><div><img src="nav/LOGO.png" alt="Sandio Petcare"></div></a>
+                <a href="index.php"><div><img src="nav/LOGO.png" alt="Sandio Petcare"></div></a>
             </li>
             <li class="nav-formsearch">
-                <form action="index.php" method="get">
+                <form action="filter.php" method="get">
                     <input type="text" name="keyword" placeholder="Cari...">
                     <button type="submit" name="search"><i class="fa-solid fa-magnifying-glass"></i></button>
                 </form>
