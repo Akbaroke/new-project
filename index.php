@@ -4,8 +4,6 @@
 <html lang="en">
 <head>
 
-    <title>Sandiopetcare.com</title>
-
     <?php include 'tempelates/header_static.php'; ?>
     <title>Landing Page</title>
 
