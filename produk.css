@@ -7,8 +7,7 @@ button {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    margin-right: 20px;
-    margin-left: 20px;
+    padding: 0 20px;
 }
 
 .produk{
@@ -233,4 +232,31 @@ button {
     border-radius: 8px;
     border: 1px solid #E88D2F;
     cursor: pointer;
+}
+
+.detail{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: #fff;
+    box-shadow: 0 0 0 3px #F8F8F8,
+                0 0 0 3.5px #E88D2F;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.detail > .judul{
+    font-family: 'Quicksand', sans-serif;
+    color: #444;
+    border-bottom: 1px solid #cecece;
+    padding: 15px 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.detail > .ket > textarea{
+    width: 100%;
+    height: 500px;
 }
