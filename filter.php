@@ -25,11 +25,10 @@
             ?>
             <div class="produk-box">
                 <a href="produk_detail.php?id=<?php echo $tampil['produk_id'] ?>"><div>
-                    <img src="produk/<?=$tampil['produk_foto1']?>">
+                    <img src="assets/img/produk/<?=$tampil['produk_foto1']?>">
                     <div class="ket">
                         <h2><?=$tampil['produk_nama']?></h2>
                         <h3>Rp <?= number_format($tampil['produk_harga'],0,',','.') ?>
-                        <?php if($tampil['produk_jumlah'] == 0){?> <del class="product-old-price">Kosong</del> <?php } ?></h3>
                     </div>
                 </div>
                 </a>
