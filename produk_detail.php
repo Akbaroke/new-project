@@ -99,8 +99,10 @@
             </div>
         </section>
         <section class="detail">
-            <div class="judul"></div>
-            <div class="ket"></div>
+            <div class="judul">Detail Produk</div>
+            <div class="ket">
+                <p><?= $d['produk_keterangan'] ?></p>
+            </div>
         </section>
         <script src="produk.js"></script>
     </main>
