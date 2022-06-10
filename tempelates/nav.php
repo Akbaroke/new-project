@@ -18,19 +18,26 @@
                     <i class="fa-solid fa-angle-down"></i>
                 </div>
             </li>
+            <?php
+            if (isset($_SESSION["keranjang"])) {
+                $jumlah_isi_keranjang = count($_SESSION["keranjang"]);
+            } else {
+                $jumlah_isi_keranjang = 0;
+            } 
+            ?>
             <li class="nav-keranjang">
                 <a href="#">
-                    <div>0</div>
+                    <div><?php echo $jumlah_isi_keranjang; ?></div>
                     <i class="fa-solid fa-cart-shopping"></i>
                 </a>
             </li>
             <li>
                 <div id=theme>
                     <div onclick=setDarkMode(true) id=darkBtn>
-                        <a>🌚</a>
+                        🌚
                     </div>
                     <div onclick=setDarkMode(false) id=lightBtn class=is-hidden>
-                        <a>🌝</a>
+                        🌝
                     </div>
                 </div>
             </li>
