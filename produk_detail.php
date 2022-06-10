@@ -101,7 +101,7 @@
         <section class="detail">
             <div class="judul">Detail Produk</div>
             <div class="ket">
-                <textarea wrap="off" readonly><?= $d['produk_keterangan'] ?></textarea>
+                <textarea readonly><?= $d['produk_keterangan'] ?></textarea>
             </div>
         </section>
         <script src="produk.js"></script>
