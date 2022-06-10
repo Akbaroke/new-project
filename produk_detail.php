@@ -46,12 +46,21 @@
                         <?php } ?>
                     </div>
                     <div class="produk2">
-                        <?php if($d['produk_foto2'] == ""){ false; }else{ ?>
+                        <?php if($d['produk_foto2'] == ""){
+                            ?><script>
+                            $(".produk2").css("display", "none");
+                            </script><?php
+                            false; 
+                            }else{ ?>
                             <img src="assets/img/produk/<?= $d['produk_foto2'] ?>">
                         <?php } ?>
                     </div>
                     <div class="produk3">
-                        <?php if($d['produk_foto3'] == ""){ false; }else{ ?>
+                        <?php if($d['produk_foto3'] == ""){
+                            ?><script>
+                            $(".produk3").css("display", "none");
+                            </script><?php
+                            false; }else{ ?>
                             <img src="assets/img/produk/<?= $d['produk_foto3'] ?>">
                         <?php } ?>
                     </div>

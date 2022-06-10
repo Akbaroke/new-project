@@ -14,7 +14,7 @@ button {
     flex-direction: row;
     flex-wrap: nowrap;
     width: 100%;
-    min-height: 480px;
+    min-height: 485px;
     gap: 20px;
 }
 
@@ -23,7 +23,8 @@ button {
     flex-direction: column;
     flex-wrap: nowrap;
     width: 400px;
-    height: 480px;
+    height: 485px;
+    gap: 5px;
 }
 
 .gambar-besar {
