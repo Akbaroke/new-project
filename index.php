@@ -22,8 +22,7 @@
                     <img src="assets/img/produk/<?=$tampil['produk_foto1']?>">
                     <div class="ket">
                         <h2><?=$tampil['produk_nama']?></h2>
-                        <h3>Rp <?= number_format($tampil['produk_harga'],0,',','.') ?>
-                        <?php if($tampil['produk_jumlah'] == 0){?> <del class="product-old-price">Kosong</del> <?php } ?></h3>
+                        <h3>Rp <?= number_format($tampil['produk_harga'],0,',','.') ?></h3>
                     </div>
                 </div>
                 </a>
